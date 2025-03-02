@@ -1,0 +1,33 @@
+# Carpetas generadas por Visual Studio
+.vs/
+bin/
+obj/
+
+# Archivos de usuario y configuración
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+*.exe
+*.dll
+*.pdb
+
+# Paquetes de dependencias
+packages/
+*.nupkg
+
+# Configuración del entorno (appsettings puede contener claves sensibles)
+appsettings.json
+appsettings.Development.json
+
+# Archivos temporales y logs
+*.log
+*.tmp
+
+# Bases de datos locales
+*.mdf
+*.ldf
+*.db
+*.bak

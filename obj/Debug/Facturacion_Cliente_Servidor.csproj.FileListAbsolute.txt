@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturacion_Cliente_Servidor.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturacion_Cliente_Servidor.Forms.frmLogin.resources
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturacion_Cliente_Servidor.Forms.frmLogin.aa-ER.resources
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturacion_Cliente_Servidor.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\bin\Debug\Facturacion_Cliente_Servidor.exe.config
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\bin\Debug\Facturacion_Cliente_Servidor.exe
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\bin\Debug\Facturacion_Cliente_Servidor.pdb
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\bin\Debug\aa-ER\Facturacion_Cliente_Servidor.resources.dll
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\bin\Debug\MaterialSkin.dll
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturacion_Cliente_Servidor.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturacion_Cliente_Servidor.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\aa-ER\Facturacion_Cliente_Servidor.resources.dll
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturac.AE5A9121.Up2Date
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturacion_Cliente_Servidor.exe
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturacion_Cliente_Servidor.pdb
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturacion_Cliente_Servidor.Forms.frmPrincipal.resources
+C:\Users\Lenovo\source\repos\Facturacion_Cliente_Servidor\obj\Debug\Facturacion_Cliente_Servidor.Forms.Clientes.frmClientes.resources
