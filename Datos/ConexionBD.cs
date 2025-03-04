@@ -8,14 +8,14 @@ using System.Data.SqlClient;
 
 namespace Facturacion_Cliente_Servidor.Datos
 {
-    internal class ConexionBD
+    public class ConexionBD
     {
         private readonly string cadenaConexion;
 
         public ConexionBD()
         {
             //Leer la cadena de conexion
-            cadenaConexion = ConfigurationManager.ConnectionStrings["ConeccionFacturacion"].ConnectionString;
+            cadenaConexion = ConfigurationManager.ConnectionStrings["ConexionFacturacion"].ConnectionString;
         }
 
         //Metodo para obtener la conexion

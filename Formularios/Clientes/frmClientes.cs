@@ -21,5 +21,10 @@ namespace Facturacion_Cliente_Servidor.Forms.Clientes
         {
             Application.Exit();
         }
+
+        private void frmClientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
