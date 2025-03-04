@@ -52,49 +52,49 @@
   <ItemGroup>
     <Compile Include="Datos\ConexionBD.cs" />
     <Compile Include="Datos\UsuarioDAO.cs" />
-    <Compile Include="Forms\Clientes\frmClientes.cs">
+    <Compile Include="Formularios\Clientes\frmClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Clientes\frmClientes.Designer.cs">
+    <Compile Include="Formularios\Clientes\frmClientes.Designer.cs">
       <DependentUpon>frmClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\formLogin.cs">
+    <Compile Include="Formularios\formLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\formLogin.Designer.cs">
+    <Compile Include="Formularios\formLogin.Designer.cs">
       <DependentUpon>formLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmPrincipal.cs">
+    <Compile Include="Formularios\frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmPrincipal.Designer.cs">
+    <Compile Include="Formularios\frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Utilidades\AbrirForm.cs" />
-    <EmbeddedResource Include="Forms\Clientes\frmClientes.resx">
+    <EmbeddedResource Include="Formularios\Clientes\frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\formLogin.aa-ER.resx">
+    <EmbeddedResource Include="Formularios\formLogin.aa-ER.resx">
       <DependentUpon>formLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\formLogin.resx">
+    <EmbeddedResource Include="Formularios\formLogin.resx">
       <DependentUpon>formLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmPrincipal.resx">
+    <EmbeddedResource Include="Formularios\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -110,55 +110,55 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\login.png" />
+    <None Include="Recursos\login.png" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logo-monitor.png" />
+    <None Include="Recursos\logo-monitor.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\salir.png" />
+    <None Include="Recursos\salir.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\clientes.png" />
+    <None Include="Recursos\clientes.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\producto.png" />
+    <None Include="Recursos\producto.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\categoria.png" />
+    <None Include="Recursos\categoria.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\factura.png" />
+    <None Include="Recursos\factura.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\informe.png" />
+    <None Include="Recursos\informe.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\empleados.png" />
+    <None Include="Recursos\empleados.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\roles.png" />
+    <None Include="Recursos\roles.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\seguridad.png" />
+    <None Include="Recursos\seguridad.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ayuda.png" />
+    <None Include="Recursos\ayuda.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\acerca de.png" />
+    <None Include="Recursos\acerca de.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Forms\Categorias\" />
-    <Folder Include="Forms\Empleados\" />
-    <Folder Include="Forms\Facturas\" />
-    <Folder Include="Forms\Informes\" />
-    <Folder Include="Forms\Productos\" />
-    <Folder Include="Forms\Roles\" />
-    <Folder Include="Forms\Seguridad\" />
+    <Folder Include="Formularios\Categorias\" />
+    <Folder Include="Formularios\Empleados\" />
+    <Folder Include="Formularios\Facturas\" />
+    <Folder Include="Formularios\Informes\" />
+    <Folder Include="Formularios\Productos\" />
+    <Folder Include="Formularios\Roles\" />
+    <Folder Include="Formularios\Seguridad\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
