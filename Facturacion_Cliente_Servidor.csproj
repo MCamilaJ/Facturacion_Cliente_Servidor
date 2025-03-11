@@ -58,6 +58,18 @@
     <Compile Include="Formularios\Clientes\frmClientes.Designer.cs">
       <DependentUpon>frmClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Empleados\frmEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Empleados\frmEmpleados.Designer.cs">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Empleados\frmListaempleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Empleados\frmListaempleados.Designer.cs">
+      <DependentUpon>frmListaempleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\formLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
     <Compile Include="Utilidades\AbrirForm.cs" />
     <EmbeddedResource Include="Formularios\Clientes\frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Empleados\frmEmpleados.resx">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Empleados\frmListaempleados.resx">
+      <DependentUpon>frmListaempleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\formLogin.aa-ER.resx">
       <DependentUpon>formLogin.cs</DependentUpon>
@@ -153,7 +171,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Formularios\Categorias\" />
-    <Folder Include="Formularios\Empleados\" />
     <Folder Include="Formularios\Facturas\" />
     <Folder Include="Formularios\Informes\" />
     <Folder Include="Formularios\Productos\" />

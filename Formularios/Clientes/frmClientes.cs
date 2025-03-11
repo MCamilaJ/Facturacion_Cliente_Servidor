@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Facturacion_Cliente_Servidor.Forms.Clientes
+namespace Facturacion_Cliente_Servidor.Formularios.Clientes
 {
     public partial class frmClientes : Form
     {

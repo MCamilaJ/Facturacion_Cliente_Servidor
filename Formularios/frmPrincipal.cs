@@ -11,7 +11,7 @@ using Facturacion_Cliente_Servidor.Utilidades;
 using MaterialSkin;
 using MaterialSkin.Controls;
 
-namespace Facturacion_Cliente_Servidor.Forms
+namespace Facturacion_Cliente_Servidor.Formularios
 {
     public partial class frmPrincipal : MaterialForm
     {
@@ -27,12 +27,22 @@ namespace Facturacion_Cliente_Servidor.Forms
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
-            AbrirForm.AbrirFormulario(new Forms.Clientes.frmClientes(), pnlPrincipal);
+            AbrirForm.AbrirFormulario(new Formularios.Clientes.frmClientes(), pnlPrincipal);
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }        
+        }
+
+        private void btnEmpleados_Click(object sender, EventArgs e)
+        {
+            AbrirForm.AbrirFormulario(new Formularios.Empleados.frmEmpleados(), pnlPrincipal);
+
+        }
+
+      
+
     }
+
 }
