@@ -1,4 +1,4 @@
-﻿namespace Facturacion_Cliente_Servidor.Forms
+﻿namespace Facturacion_Cliente_Servidor.Formularios
 {
     partial class frmLogin
     {

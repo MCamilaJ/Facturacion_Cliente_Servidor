@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Facturacion_Cliente_Servidor.Utilidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Facturacion_Cliente_Servidor.Forms.Clientes
+namespace Facturacion_Cliente_Servidor.Formularios.Clientes
 {
     public partial class frmClientes : Form
     {
@@ -23,6 +24,11 @@ namespace Facturacion_Cliente_Servidor.Forms.Clientes
         }
 
         private void frmClientes_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBuscar_Click(object sender, EventArgs e)
         {
 
         }

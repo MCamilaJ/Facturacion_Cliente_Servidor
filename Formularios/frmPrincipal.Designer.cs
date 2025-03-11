@@ -1,4 +1,4 @@
-﻿namespace Facturacion_Cliente_Servidor.Forms
+﻿namespace Facturacion_Cliente_Servidor.Formularios
 {
     partial class frmPrincipal
     {
@@ -32,39 +32,39 @@
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.tbpMenu = new MaterialSkin.Controls.MaterialTabControl();
             this.principal = new System.Windows.Forms.TabPage();
-            this.tablas = new System.Windows.Forms.TabPage();
-            this.facturacion = new System.Windows.Forms.TabPage();
-            this.seguridad = new System.Windows.Forms.TabPage();
-            this.acerca = new System.Windows.Forms.TabPage();
-            this.tabOpcionesMenu = new MaterialSkin.Controls.MaterialTabSelector();
             this.btnSalir = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tablas = new System.Windows.Forms.TabPage();
             this.btnCategoria = new System.Windows.Forms.Button();
             this.btnProductos = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.facturacion = new System.Windows.Forms.TabPage();
             this.btnInformes = new System.Windows.Forms.Button();
             this.btnFacturacion = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.seguridad = new System.Windows.Forms.TabPage();
+            this.btnEmpleados = new System.Windows.Forms.Button();
             this.btnSeguridad = new System.Windows.Forms.Button();
             this.btnRoles = new System.Windows.Forms.Button();
-            this.btnEmpleados = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.acerca = new System.Windows.Forms.TabPage();
             this.btnAcerca = new System.Windows.Forms.Button();
             this.btnAyuda = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.tabOpcionesMenu = new MaterialSkin.Controls.MaterialTabSelector();
             this.pnlPrincipal.SuspendLayout();
             this.pnlMenu.SuspendLayout();
             this.tbpMenu.SuspendLayout();
             this.principal.SuspendLayout();
-            this.tablas.SuspendLayout();
-            this.facturacion.SuspendLayout();
-            this.seguridad.SuspendLayout();
-            this.acerca.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tablas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.facturacion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.seguridad.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.acerca.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,67 +114,6 @@
             this.principal.TabIndex = 0;
             this.principal.Text = "Principal";
             // 
-            // tablas
-            // 
-            this.tablas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.tablas.Controls.Add(this.btnCategoria);
-            this.tablas.Controls.Add(this.btnProductos);
-            this.tablas.Controls.Add(this.btnClientes);
-            this.tablas.Controls.Add(this.pictureBox2);
-            this.tablas.Location = new System.Drawing.Point(4, 22);
-            this.tablas.Name = "tablas";
-            this.tablas.Padding = new System.Windows.Forms.Padding(3);
-            this.tablas.Size = new System.Drawing.Size(192, 560);
-            this.tablas.TabIndex = 1;
-            this.tablas.Text = "Tablas";
-            // 
-            // facturacion
-            // 
-            this.facturacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.facturacion.Controls.Add(this.btnInformes);
-            this.facturacion.Controls.Add(this.btnFacturacion);
-            this.facturacion.Controls.Add(this.pictureBox3);
-            this.facturacion.Location = new System.Drawing.Point(4, 22);
-            this.facturacion.Name = "facturacion";
-            this.facturacion.Size = new System.Drawing.Size(192, 560);
-            this.facturacion.TabIndex = 2;
-            this.facturacion.Text = "Facturación";
-            // 
-            // seguridad
-            // 
-            this.seguridad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.seguridad.Controls.Add(this.btnSeguridad);
-            this.seguridad.Controls.Add(this.btnRoles);
-            this.seguridad.Controls.Add(this.btnEmpleados);
-            this.seguridad.Controls.Add(this.pictureBox4);
-            this.seguridad.Location = new System.Drawing.Point(4, 22);
-            this.seguridad.Name = "seguridad";
-            this.seguridad.Size = new System.Drawing.Size(192, 560);
-            this.seguridad.TabIndex = 3;
-            this.seguridad.Text = "Seguridad";
-            // 
-            // acerca
-            // 
-            this.acerca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.acerca.Controls.Add(this.btnAcerca);
-            this.acerca.Controls.Add(this.btnAyuda);
-            this.acerca.Controls.Add(this.pictureBox5);
-            this.acerca.Location = new System.Drawing.Point(4, 22);
-            this.acerca.Name = "acerca";
-            this.acerca.Size = new System.Drawing.Size(192, 560);
-            this.acerca.TabIndex = 4;
-            this.acerca.Text = "Acerca de";
-            // 
-            // tabOpcionesMenu
-            // 
-            this.tabOpcionesMenu.BaseTabControl = this.tbpMenu;
-            this.tabOpcionesMenu.Depth = 0;
-            this.tabOpcionesMenu.Location = new System.Drawing.Point(423, 31);
-            this.tabOpcionesMenu.MouseState = MaterialSkin.MouseState.HOVER;
-            this.tabOpcionesMenu.Name = "tabOpcionesMenu";
-            this.tabOpcionesMenu.Size = new System.Drawing.Size(566, 23);
-            this.tabOpcionesMenu.TabIndex = 1;
-            // 
             // btnSalir
             // 
             this.btnSalir.FlatAppearance.BorderSize = 0;
@@ -184,7 +123,7 @@
             this.btnSalir.ForeColor = System.Drawing.Color.White;
             this.btnSalir.Image = global::Facturacion_Cliente_Servidor.Properties.Resources.salir;
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(0, 374);
+            this.btnSalir.Location = new System.Drawing.Point(-3, 511);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(196, 43);
             this.btnSalir.TabIndex = 1;
@@ -201,6 +140,20 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // tablas
+            // 
+            this.tablas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.tablas.Controls.Add(this.btnCategoria);
+            this.tablas.Controls.Add(this.btnProductos);
+            this.tablas.Controls.Add(this.btnClientes);
+            this.tablas.Controls.Add(this.pictureBox2);
+            this.tablas.Location = new System.Drawing.Point(4, 22);
+            this.tablas.Name = "tablas";
+            this.tablas.Padding = new System.Windows.Forms.Padding(3);
+            this.tablas.Size = new System.Drawing.Size(192, 560);
+            this.tablas.TabIndex = 1;
+            this.tablas.Text = "Tablas";
             // 
             // btnCategoria
             // 
@@ -261,6 +214,18 @@
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
+            // facturacion
+            // 
+            this.facturacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.facturacion.Controls.Add(this.btnInformes);
+            this.facturacion.Controls.Add(this.btnFacturacion);
+            this.facturacion.Controls.Add(this.pictureBox3);
+            this.facturacion.Location = new System.Drawing.Point(4, 22);
+            this.facturacion.Name = "facturacion";
+            this.facturacion.Size = new System.Drawing.Size(192, 560);
+            this.facturacion.TabIndex = 2;
+            this.facturacion.Text = "Facturación";
+            // 
             // btnInformes
             // 
             this.btnInformes.FlatAppearance.BorderSize = 0;
@@ -303,6 +268,36 @@
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
             // 
+            // seguridad
+            // 
+            this.seguridad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.seguridad.Controls.Add(this.btnEmpleados);
+            this.seguridad.Controls.Add(this.btnSeguridad);
+            this.seguridad.Controls.Add(this.btnRoles);
+            this.seguridad.Controls.Add(this.pictureBox4);
+            this.seguridad.Location = new System.Drawing.Point(4, 22);
+            this.seguridad.Name = "seguridad";
+            this.seguridad.Size = new System.Drawing.Size(192, 560);
+            this.seguridad.TabIndex = 3;
+            this.seguridad.Text = "Seguridad";
+            // 
+            // btnEmpleados
+            // 
+            this.btnEmpleados.FlatAppearance.BorderSize = 0;
+            this.btnEmpleados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmpleados.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpleados.ForeColor = System.Drawing.Color.Transparent;
+            this.btnEmpleados.Image = global::Facturacion_Cliente_Servidor.Properties.Resources.empleados;
+            this.btnEmpleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmpleados.Location = new System.Drawing.Point(3, 210);
+            this.btnEmpleados.Name = "btnEmpleados";
+            this.btnEmpleados.Size = new System.Drawing.Size(195, 43);
+            this.btnEmpleados.TabIndex = 7;
+            this.btnEmpleados.Text = "Empleados";
+            this.btnEmpleados.UseVisualStyleBackColor = true;
+            this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
+            // 
             // btnSeguridad
             // 
             this.btnSeguridad.FlatAppearance.BorderSize = 0;
@@ -312,12 +307,13 @@
             this.btnSeguridad.ForeColor = System.Drawing.Color.White;
             this.btnSeguridad.Image = global::Facturacion_Cliente_Servidor.Properties.Resources.seguridad;
             this.btnSeguridad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeguridad.Location = new System.Drawing.Point(0, 347);
+            this.btnSeguridad.Location = new System.Drawing.Point(3, 308);
             this.btnSeguridad.Name = "btnSeguridad";
             this.btnSeguridad.Size = new System.Drawing.Size(195, 43);
             this.btnSeguridad.TabIndex = 9;
             this.btnSeguridad.Text = "Seguridad";
             this.btnSeguridad.UseVisualStyleBackColor = true;
+            this.btnSeguridad.Click += new System.EventHandler(this.btnSeguridad_Click);
             // 
             // btnRoles
             // 
@@ -328,28 +324,12 @@
             this.btnRoles.ForeColor = System.Drawing.Color.White;
             this.btnRoles.Image = global::Facturacion_Cliente_Servidor.Properties.Resources.roles;
             this.btnRoles.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRoles.Location = new System.Drawing.Point(0, 297);
+            this.btnRoles.Location = new System.Drawing.Point(-1, 259);
             this.btnRoles.Name = "btnRoles";
             this.btnRoles.Size = new System.Drawing.Size(195, 43);
             this.btnRoles.TabIndex = 8;
             this.btnRoles.Text = "Roles";
             this.btnRoles.UseVisualStyleBackColor = true;
-            // 
-            // btnEmpleados
-            // 
-            this.btnEmpleados.FlatAppearance.BorderSize = 0;
-            this.btnEmpleados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.btnEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmpleados.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmpleados.ForeColor = System.Drawing.Color.White;
-            this.btnEmpleados.Image = global::Facturacion_Cliente_Servidor.Properties.Resources.empleados;
-            this.btnEmpleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmpleados.Location = new System.Drawing.Point(0, 241);
-            this.btnEmpleados.Name = "btnEmpleados";
-            this.btnEmpleados.Size = new System.Drawing.Size(195, 43);
-            this.btnEmpleados.TabIndex = 7;
-            this.btnEmpleados.Text = "Empleados";
-            this.btnEmpleados.UseVisualStyleBackColor = true;
             // 
             // pictureBox4
             // 
@@ -360,6 +340,18 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
+            // 
+            // acerca
+            // 
+            this.acerca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.acerca.Controls.Add(this.btnAcerca);
+            this.acerca.Controls.Add(this.btnAyuda);
+            this.acerca.Controls.Add(this.pictureBox5);
+            this.acerca.Location = new System.Drawing.Point(4, 22);
+            this.acerca.Name = "acerca";
+            this.acerca.Size = new System.Drawing.Size(192, 560);
+            this.acerca.TabIndex = 4;
+            this.acerca.Text = "Acerca de";
             // 
             // btnAcerca
             // 
@@ -403,6 +395,17 @@
             this.pictureBox5.TabIndex = 8;
             this.pictureBox5.TabStop = false;
             // 
+            // tabOpcionesMenu
+            // 
+            this.tabOpcionesMenu.BaseTabControl = this.tbpMenu;
+            this.tabOpcionesMenu.Depth = 0;
+            this.tabOpcionesMenu.Location = new System.Drawing.Point(423, 31);
+            this.tabOpcionesMenu.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tabOpcionesMenu.Name = "tabOpcionesMenu";
+            this.tabOpcionesMenu.Size = new System.Drawing.Size(566, 23);
+            this.tabOpcionesMenu.TabIndex = 1;
+            this.tabOpcionesMenu.Click += new System.EventHandler(this.tabOpcionesMenu_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -418,18 +421,18 @@
             this.tbpMenu.ResumeLayout(false);
             this.principal.ResumeLayout(false);
             this.principal.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tablas.ResumeLayout(false);
             this.tablas.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.facturacion.ResumeLayout(false);
             this.facturacion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.seguridad.ResumeLayout(false);
             this.seguridad.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.acerca.ResumeLayout(false);
             this.acerca.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 

@@ -1,4 +1,4 @@
-﻿using Facturacion_Cliente_Servidor.Forms;
+﻿using Facturacion_Cliente_Servidor.Formularios;
 using System;
 using System.Collections.Generic;
 using System.Linq;

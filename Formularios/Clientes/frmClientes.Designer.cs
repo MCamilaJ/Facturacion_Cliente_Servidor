@@ -1,4 +1,4 @@
-﻿namespace Facturacion_Cliente_Servidor.Forms.Clientes
+﻿namespace Facturacion_Cliente_Servidor.Formularios.Clientes
 {
     partial class frmClientes
     {
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblTitulo = new MaterialSkin.Controls.MaterialLabel();
             this.pnlClientes = new System.Windows.Forms.Panel();
             this.dgClientes = new System.Windows.Forms.DataGridView();
@@ -86,18 +86,18 @@
             this.street,
             this.btnActualizar,
             this.btnEliminar});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgClientes.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgClientes.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgClientes.Location = new System.Drawing.Point(12, 65);
             this.dgClientes.Name = "dgClientes";
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.dgClientes.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            this.dgClientes.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgClientes.Size = new System.Drawing.Size(746, 229);
             this.dgClientes.TabIndex = 18;
             // 
@@ -134,9 +134,9 @@
             // btnActualizar
             // 
             this.btnActualizar.DataPropertyName = "actualizar";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnActualizar.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnActualizar.DefaultCellStyle = dataGridViewCellStyle5;
             this.btnActualizar.HeaderText = "Actualizar";
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Text = "Actualizar";
@@ -145,9 +145,9 @@
             // btnEliminar
             // 
             this.btnEliminar.DataPropertyName = "eliminar";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Crimson;
-            this.btnEliminar.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Crimson;
+            this.btnEliminar.DefaultCellStyle = dataGridViewCellStyle6;
             this.btnEliminar.HeaderText = "Eliminar";
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Text = "Eliminar";
@@ -185,7 +185,7 @@
             // 
             this.txtBuscar.Depth = 0;
             this.txtBuscar.Hint = "Buscar por cliente";
-            this.txtBuscar.Location = new System.Drawing.Point(34, 25);
+            this.txtBuscar.Location = new System.Drawing.Point(24, 25);
             this.txtBuscar.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.PasswordChar = '\0';
@@ -195,6 +195,7 @@
             this.txtBuscar.Size = new System.Drawing.Size(277, 23);
             this.txtBuscar.TabIndex = 15;
             this.txtBuscar.UseSystemPasswordChar = false;
+            this.txtBuscar.Click += new System.EventHandler(this.txtBuscar_Click);
             // 
             // btnSalir
             // 

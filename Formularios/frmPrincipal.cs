@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Facturacion_Cliente_Servidor.Formularios;
 using Facturacion_Cliente_Servidor.Utilidades;
 using MaterialSkin;
 using MaterialSkin.Controls;
 
-namespace Facturacion_Cliente_Servidor.Forms
+namespace Facturacion_Cliente_Servidor.Formularios
 {
     public partial class frmPrincipal : MaterialForm
     {
@@ -27,12 +28,27 @@ namespace Facturacion_Cliente_Servidor.Forms
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
-            AbrirForm.AbrirFormulario(new Forms.Clientes.frmClientes(), pnlPrincipal);
+            
+            AbrirForm.AbrirFormulario(new Formularios.Clientes.frmClientes(), pnlPrincipal);
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }        
+        }
+        private void tabOpcionesMenu_Click(object sender, EventArgs e)
+        {
+            
+        }
+        private void btnEmpleados_Click(object sender, EventArgs e)
+        {
+           // AbrirForm.AbrirFormulario(new Formularios.Empleados.frmEmpleado(), pnlPrincipal);
+           // AbrirForm.AbrirFormulario(new Formularios.frmListaEmpleados);
+        }
+
+        private void btnSeguridad_Click(object sender, EventArgs e)
+        {
+            AbrirForm.AbrirFormulario(new Formularios.Seguridad.frmActualizarUsurio(), pnlPrincipal);
+        }
     }
 }
