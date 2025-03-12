@@ -44,7 +44,9 @@
             this.btnFacturacion = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.seguridad = new System.Windows.Forms.TabPage();
+
             this.btnEmpleados = new System.Windows.Forms.Button();
+
             this.btnSeguridad = new System.Windows.Forms.Button();
             this.btnRoles = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -186,6 +188,7 @@
             this.btnProductos.TabIndex = 4;
             this.btnProductos.Text = "Productos";
             this.btnProductos.UseVisualStyleBackColor = true;
+            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
             // 
             // btnClientes
             // 
@@ -271,9 +274,15 @@
             // seguridad
             // 
             this.seguridad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+
             this.seguridad.Controls.Add(this.btnEmpleados);
             this.seguridad.Controls.Add(this.btnSeguridad);
             this.seguridad.Controls.Add(this.btnRoles);
+
+            this.seguridad.Controls.Add(this.btnSeguridad);
+            this.seguridad.Controls.Add(this.btnRoles);
+            this.seguridad.Controls.Add(this.btnEmpleados);
+
             this.seguridad.Controls.Add(this.pictureBox4);
             this.seguridad.Location = new System.Drawing.Point(4, 22);
             this.seguridad.Name = "seguridad";
@@ -281,6 +290,7 @@
             this.seguridad.TabIndex = 3;
             this.seguridad.Text = "Seguridad";
             // 
+
             // btnEmpleados
             // 
             this.btnEmpleados.FlatAppearance.BorderSize = 0;
@@ -298,6 +308,7 @@
             this.btnEmpleados.UseVisualStyleBackColor = true;
             this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
+
             // btnSeguridad
             // 
             this.btnSeguridad.FlatAppearance.BorderSize = 0;
@@ -404,7 +415,9 @@
             this.tabOpcionesMenu.Name = "tabOpcionesMenu";
             this.tabOpcionesMenu.Size = new System.Drawing.Size(566, 23);
             this.tabOpcionesMenu.TabIndex = 1;
+
             this.tabOpcionesMenu.Click += new System.EventHandler(this.tabOpcionesMenu_Click);
+
             // 
             // frmPrincipal
             // 

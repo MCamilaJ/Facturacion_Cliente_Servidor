@@ -28,8 +28,17 @@ namespace Facturacion_Cliente_Servidor.Formularios
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
+
             
             AbrirForm.AbrirFormulario(new Formularios.Clientes.frmClientes(), pnlPrincipal);
+
+            AbrirForm.AbrirFormulario(new Formularios.Clientes.frmClientes(), pnlPrincipal);
+        }
+
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            AbrirForm.AbrirFormulario(new Formularios.Productos.frmProductos(), pnlPrincipal);
+
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
