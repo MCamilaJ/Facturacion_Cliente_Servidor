@@ -45,7 +45,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.seguridad = new System.Windows.Forms.TabPage();
 
+
             this.btnEmpleados = new System.Windows.Forms.Button();
+
 
             this.btnSeguridad = new System.Windows.Forms.Button();
             this.btnRoles = new System.Windows.Forms.Button();
@@ -275,6 +277,11 @@
             // 
             this.seguridad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
 
+            this.seguridad.Controls.Add(this.btnSeguridad);
+            this.seguridad.Controls.Add(this.btnRoles);
+            this.seguridad.Controls.Add(this.btnEmpleados);
+
+
             this.seguridad.Controls.Add(this.btnEmpleados);
             this.seguridad.Controls.Add(this.btnSeguridad);
             this.seguridad.Controls.Add(this.btnRoles);
@@ -282,6 +289,7 @@
             this.seguridad.Controls.Add(this.btnSeguridad);
             this.seguridad.Controls.Add(this.btnRoles);
             this.seguridad.Controls.Add(this.btnEmpleados);
+
 
             this.seguridad.Controls.Add(this.pictureBox4);
             this.seguridad.Location = new System.Drawing.Point(4, 22);
@@ -290,6 +298,7 @@
             this.seguridad.TabIndex = 3;
             this.seguridad.Text = "Seguridad";
             // 
+
 
             // btnEmpleados
             // 
@@ -308,6 +317,7 @@
             this.btnEmpleados.UseVisualStyleBackColor = true;
             this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
+
 
             // btnSeguridad
             // 
@@ -342,6 +352,25 @@
             this.btnRoles.Text = "Roles";
             this.btnRoles.UseVisualStyleBackColor = true;
             // 
+
+            // btnEmpleados
+            // 
+            this.btnEmpleados.FlatAppearance.BorderSize = 0;
+            this.btnEmpleados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmpleados.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpleados.ForeColor = System.Drawing.Color.White;
+            this.btnEmpleados.Image = global::Facturacion_Cliente_Servidor.Properties.Resources.empleados;
+            this.btnEmpleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmpleados.Location = new System.Drawing.Point(0, 241);
+            this.btnEmpleados.Name = "btnEmpleados";
+            this.btnEmpleados.Size = new System.Drawing.Size(195, 43);
+            this.btnEmpleados.TabIndex = 7;
+            this.btnEmpleados.Text = "Empleados";
+            this.btnEmpleados.UseVisualStyleBackColor = true;
+            this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
+            // 
+
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Facturacion_Cliente_Servidor.Properties.Resources.logo_monitor;
@@ -415,6 +444,7 @@
             this.tabOpcionesMenu.Name = "tabOpcionesMenu";
             this.tabOpcionesMenu.Size = new System.Drawing.Size(566, 23);
             this.tabOpcionesMenu.TabIndex = 1;
+
 
             this.tabOpcionesMenu.Click += new System.EventHandler(this.tabOpcionesMenu_Click);
 

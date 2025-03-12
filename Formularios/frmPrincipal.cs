@@ -29,6 +29,9 @@ namespace Facturacion_Cliente_Servidor.Formularios
         private void btnClientes_Click(object sender, EventArgs e)
         {
 
+            AbrirForm.AbrirFormulario(new Formularios.Clientes.frmClientes(), pnlPrincipal);
+
+
             
             AbrirForm.AbrirFormulario(new Formularios.Clientes.frmClientes(), pnlPrincipal);
 
@@ -39,12 +42,24 @@ namespace Facturacion_Cliente_Servidor.Formularios
         {
             AbrirForm.AbrirFormulario(new Formularios.Productos.frmProductos(), pnlPrincipal);
 
+
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+
+        private void btnEmpleados_Click(object sender, EventArgs e)
+        {
+            AbrirForm.AbrirFormulario(new Formularios.Empleados.frmEmpleados(), pnlPrincipal);
+
+        }
+
+      
+
+
         private void tabOpcionesMenu_Click(object sender, EventArgs e)
         {
             
@@ -59,5 +74,7 @@ namespace Facturacion_Cliente_Servidor.Formularios
         {
             AbrirForm.AbrirFormulario(new Formularios.Seguridad.frmActualizarUsurio(), pnlPrincipal);
         }
+
     }
+
 }
