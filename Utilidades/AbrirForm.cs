@@ -7,13 +7,25 @@ using System.Windows.Forms;
 
 namespace Facturacion_Cliente_Servidor.Utilidades
 {
-    internal class AbrirForm
+    public static class AbrirForm
     {
-        public static void AbrirFormulario(Form formHijo, Panel panelContenedor)
+        public static void AbrirFormulario(Form form, Panel panel)
         {
-            // Si hay controles en el panel
-            if (panelContenedor.Controls.Count > 0)
+            // Cierra y elimina formularios previos dentro del panel
+            foreach (Control ctrl in panel.Controls.OfType<Form>().ToList())
             {
+
+                ctrl.Dispose(); // Libera recursos del formulario
+                panel.Controls.Remove(ctrl);
+            }
+
+            // Configura el nuevo formulario dentro del panel
+            form.TopLevel = false;
+            form.Dock = DockStyle.Fill;
+            form.FormBorderStyle = FormBorderStyle.None;
+            panel.Controls.Add(form);
+            form.Show();
+
                 // Verifica si el primer control es un Form
                 if (panelContenedor.Controls[0] is Form formActivo)
                 {
@@ -33,6 +45,8 @@ namespace Facturacion_Cliente_Servidor.Utilidades
             panelContenedor.Tag = formHijo;
             formHijo.BringToFront(); // Trae el nuevo formulario al frente
             formHijo.Show();
+
         }
     }
+
 }
