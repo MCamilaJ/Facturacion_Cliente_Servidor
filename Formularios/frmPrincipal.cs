@@ -64,11 +64,7 @@ namespace Facturacion_Cliente_Servidor.Formularios
         {
             
         }
-        private void btnEmpleados_Click(object sender, EventArgs e)
-        {
-           // AbrirForm.AbrirFormulario(new Formularios.Empleados.frmEmpleado(), pnlPrincipal);
-           // AbrirForm.AbrirFormulario(new Formularios.frmListaEmpleados);
-        }
+        
 
         private void btnSeguridad_Click(object sender, EventArgs e)
         {

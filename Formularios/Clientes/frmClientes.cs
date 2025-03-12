@@ -73,7 +73,5 @@ namespace Facturacion_Cliente_Servidor.Formularios.Clientes
 
         }
 
-        }        
-
     }
 }

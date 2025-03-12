@@ -9,23 +9,13 @@ namespace Facturacion_Cliente_Servidor.Utilidades
 {
     public static class AbrirForm
     {
-        public static void AbrirFormulario(Form form, Panel panel)
+        public static void AbrirFormulario(Form formHijo, Panel panelContenedor)
         {
-            // Cierra y elimina formularios previos dentro del panel
-            foreach (Control ctrl in panel.Controls.OfType<Form>().ToList())
+
+
+            // Si hay controles en el panel
+            if (panelContenedor.Controls.Count > 0)
             {
-
-                ctrl.Dispose(); // Libera recursos del formulario
-                panel.Controls.Remove(ctrl);
-            }
-
-            // Configura el nuevo formulario dentro del panel
-            form.TopLevel = false;
-            form.Dock = DockStyle.Fill;
-            form.FormBorderStyle = FormBorderStyle.None;
-            panel.Controls.Add(form);
-            form.Show();
-
                 // Verifica si el primer control es un Form
                 if (panelContenedor.Controls[0] is Form formActivo)
                 {
@@ -36,6 +26,7 @@ namespace Facturacion_Cliente_Servidor.Utilidades
                     panelContenedor.Controls.Remove(formActivo); // Lo elimina del panel
                 }
             }
+
 
             Console.WriteLine("Abriendo nuevo formulario: " + formHijo.Name);
             formHijo.TopLevel = false;

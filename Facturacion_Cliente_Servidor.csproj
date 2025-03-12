@@ -74,7 +74,6 @@
     <Compile Include="Formularios\Clientes\frmClientes.Designer.cs">
       <DependentUpon>frmClientes.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Formularios\Empleados\frmEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,13 +85,12 @@
     </Compile>
     <Compile Include="Formularios\Empleados\frmListaempleados.Designer.cs">
       <DependentUpon>frmListaempleados.cs</DependentUpon>
-
+    </Compile>
     <Compile Include="Formularios\Clientes\frmNuevo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Clientes\frmNuevo.Designer.cs">
       <DependentUpon>frmNuevo.cs</DependentUpon>
-
     </Compile>
     <Compile Include="Formularios\formLogin.cs">
       <SubType>Form</SubType>
@@ -106,7 +104,6 @@
     <Compile Include="Formularios\frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
-
     <Compile Include="Formularios\Seguridad\frmActualizarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,13 +115,12 @@
     </Compile>
     <Compile Include="Formularios\Seguridad\frmUsuario.Designer.cs">
       <DependentUpon>frmUsuario.cs</DependentUpon>
-
+    </Compile>
     <Compile Include="Formularios\Productos\frmProductos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Productos\frmProductos.Designer.cs">
       <DependentUpon>frmProductos.cs</DependentUpon>
-
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -137,16 +133,14 @@
     <EmbeddedResource Include="Formularios\Clientes\frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="Formularios\Empleados\frmEmpleados.resx">
       <DependentUpon>frmEmpleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Empleados\frmListaempleados.resx">
       <DependentUpon>frmListaempleados.cs</DependentUpon>
-
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Clientes\frmNuevo.resx">
       <DependentUpon>frmNuevo.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\formLogin.aa-ER.resx">
       <DependentUpon>formLogin.cs</DependentUpon>
@@ -157,16 +151,14 @@
     <EmbeddedResource Include="Formularios\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Include="Formularios\Seguridad\frmActualizarUsuario.resx">
       <DependentUpon>frmActualizarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Seguridad\frmUsuario.resx">
       <DependentUpon>frmUsuario.cs</DependentUpon>
-
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Productos\frmProductos.resx">
       <DependentUpon>frmProductos.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

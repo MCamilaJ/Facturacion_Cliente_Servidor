@@ -35,6 +35,7 @@ namespace Facturacion_Cliente_Servidor.Datos
             }
             return valido;
         }
+
         public class SeguridadDatos
         {
             public bool ActualizarNuevoUsuario(int idSeguridad, int idEmpleado, string usuario, string clave, DateTime fechaModificacion, string usuarioModifico)

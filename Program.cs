@@ -17,7 +17,7 @@ namespace Facturacion_Cliente_Servidor
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPrincipal());
+            Application.Run(new Formularios.frmPrincipal());
         }
     }
 }

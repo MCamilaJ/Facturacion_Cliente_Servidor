@@ -35,10 +35,6 @@
             this.btnSalir = new MaterialSkin.Controls.MaterialRaisedButton();
             this.pnlEmpleados = new System.Windows.Forms.Panel();
             this.dgEmpleados = new System.Windows.Forms.DataGridView();
-            this.btnNuevo = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.btnBuscar = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.txtBuscar = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.lblTitulo = new MaterialSkin.Controls.MaterialLabel();
             this.idEmpleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.first_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,6 +42,10 @@
             this.street = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnActualizar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnEliminar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btnNuevo = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btnBuscar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.txtBuscar = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.lblTitulo = new MaterialSkin.Controls.MaterialLabel();
             this.pnlEmpleados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgEmpleados)).BeginInit();
             this.SuspendLayout();
@@ -54,7 +54,7 @@
             // 
             this.btnSalir.Depth = 0;
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(956, 474);
+            this.btnSalir.Location = new System.Drawing.Point(749, 476);
             this.btnSalir.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Primary = true;
@@ -71,7 +71,7 @@
             this.pnlEmpleados.Controls.Add(this.btnNuevo);
             this.pnlEmpleados.Controls.Add(this.btnBuscar);
             this.pnlEmpleados.Controls.Add(this.txtBuscar);
-            this.pnlEmpleados.Location = new System.Drawing.Point(316, 149);
+            this.pnlEmpleados.Location = new System.Drawing.Point(109, 151);
             this.pnlEmpleados.Name = "pnlEmpleados";
             this.pnlEmpleados.Size = new System.Drawing.Size(776, 310);
             this.pnlEmpleados.TabIndex = 20;
@@ -101,63 +101,6 @@
             this.dgEmpleados.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgEmpleados.Size = new System.Drawing.Size(746, 229);
             this.dgEmpleados.TabIndex = 18;
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Depth = 0;
-            this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNuevo.Location = new System.Drawing.Point(555, 18);
-            this.btnNuevo.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Primary = true;
-            this.btnNuevo.Size = new System.Drawing.Size(149, 30);
-            this.btnNuevo.TabIndex = 17;
-            this.btnNuevo.Text = " Actualizar";
-            this.btnNuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Depth = 0;
-            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscar.Location = new System.Drawing.Point(332, 18);
-            this.btnBuscar.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Primary = true;
-            this.btnBuscar.Size = new System.Drawing.Size(103, 30);
-            this.btnBuscar.TabIndex = 16;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            // 
-            // txtBuscar
-            // 
-            this.txtBuscar.Depth = 0;
-            this.txtBuscar.Hint = "Buscar por Empleado";
-            this.txtBuscar.Location = new System.Drawing.Point(34, 25);
-            this.txtBuscar.MouseState = MaterialSkin.MouseState.HOVER;
-            this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.PasswordChar = '\0';
-            this.txtBuscar.SelectedText = "";
-            this.txtBuscar.SelectionLength = 0;
-            this.txtBuscar.SelectionStart = 0;
-            this.txtBuscar.Size = new System.Drawing.Size(277, 23);
-            this.txtBuscar.TabIndex = 15;
-            this.txtBuscar.UseSystemPasswordChar = false;
-            // 
-            // lblTitulo
-            // 
-            this.lblTitulo.Depth = 0;
-            this.lblTitulo.Font = new System.Drawing.Font("Roboto", 11F);
-            this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblTitulo.Location = new System.Drawing.Point(519, 109);
-            this.lblTitulo.MouseState = MaterialSkin.MouseState.HOVER;
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(345, 19);
-            this.lblTitulo.TabIndex = 19;
-            this.lblTitulo.Text = "ADMINISTRACIÓN DE EMPLEADOS";
-            this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // idEmpleado
             // 
@@ -210,6 +153,63 @@
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseColumnTextForButtonValue = true;
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Depth = 0;
+            this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNuevo.Location = new System.Drawing.Point(555, 18);
+            this.btnNuevo.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Primary = true;
+            this.btnNuevo.Size = new System.Drawing.Size(149, 30);
+            this.btnNuevo.TabIndex = 17;
+            this.btnNuevo.Text = " Actualizar";
+            this.btnNuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Depth = 0;
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBuscar.Location = new System.Drawing.Point(332, 18);
+            this.btnBuscar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Primary = true;
+            this.btnBuscar.Size = new System.Drawing.Size(103, 30);
+            this.btnBuscar.TabIndex = 16;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            // 
+            // txtBuscar
+            // 
+            this.txtBuscar.Depth = 0;
+            this.txtBuscar.Hint = "Buscar por Empleado";
+            this.txtBuscar.Location = new System.Drawing.Point(34, 25);
+            this.txtBuscar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.PasswordChar = '\0';
+            this.txtBuscar.SelectedText = "";
+            this.txtBuscar.SelectionLength = 0;
+            this.txtBuscar.SelectionStart = 0;
+            this.txtBuscar.Size = new System.Drawing.Size(277, 23);
+            this.txtBuscar.TabIndex = 15;
+            this.txtBuscar.UseSystemPasswordChar = false;
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.Depth = 0;
+            this.lblTitulo.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblTitulo.Location = new System.Drawing.Point(312, 111);
+            this.lblTitulo.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(345, 19);
+            this.lblTitulo.TabIndex = 19;
+            this.lblTitulo.Text = "ADMINISTRACIÓN DE EMPLEADOS";
+            this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // frmEmpleados
             // 
