@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Facturacion_Cliente_Servidor.Forms
+namespace Facturacion_Cliente_Servidor.Formularios
 {
     public partial class frmLogin : Form
     {
