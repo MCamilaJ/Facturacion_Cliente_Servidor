@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Facturacion_Cliente_Servidor.Utilidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -64,6 +65,13 @@ namespace Facturacion_Cliente_Servidor.Formularios.Clientes
         private void frmClientes_Load(object sender, EventArgs e)
         {
 
-        }        
+
+        }
+
+        private void txtBuscar_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

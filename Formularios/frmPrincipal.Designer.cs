@@ -123,7 +123,7 @@
             this.btnSalir.ForeColor = System.Drawing.Color.White;
             this.btnSalir.Image = global::Facturacion_Cliente_Servidor.Properties.Resources.salir;
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(0, 374);
+            this.btnSalir.Location = new System.Drawing.Point(-3, 511);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(196, 43);
             this.btnSalir.TabIndex = 1;
@@ -291,12 +291,13 @@
             this.btnSeguridad.ForeColor = System.Drawing.Color.White;
             this.btnSeguridad.Image = global::Facturacion_Cliente_Servidor.Properties.Resources.seguridad;
             this.btnSeguridad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeguridad.Location = new System.Drawing.Point(0, 347);
+            this.btnSeguridad.Location = new System.Drawing.Point(3, 341);
             this.btnSeguridad.Name = "btnSeguridad";
             this.btnSeguridad.Size = new System.Drawing.Size(195, 43);
             this.btnSeguridad.TabIndex = 9;
             this.btnSeguridad.Text = "Seguridad";
             this.btnSeguridad.UseVisualStyleBackColor = true;
+            this.btnSeguridad.Click += new System.EventHandler(this.btnSeguridad_Click);
             // 
             // btnRoles
             // 
@@ -307,7 +308,7 @@
             this.btnRoles.ForeColor = System.Drawing.Color.White;
             this.btnRoles.Image = global::Facturacion_Cliente_Servidor.Properties.Resources.roles;
             this.btnRoles.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRoles.Location = new System.Drawing.Point(0, 297);
+            this.btnRoles.Location = new System.Drawing.Point(-1, 292);
             this.btnRoles.Name = "btnRoles";
             this.btnRoles.Size = new System.Drawing.Size(195, 43);
             this.btnRoles.TabIndex = 8;
@@ -329,6 +330,7 @@
             this.btnEmpleados.TabIndex = 7;
             this.btnEmpleados.Text = "Empleados";
             this.btnEmpleados.UseVisualStyleBackColor = true;
+            this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
             // pictureBox4
             // 
@@ -403,6 +405,7 @@
             this.tabOpcionesMenu.Name = "tabOpcionesMenu";
             this.tabOpcionesMenu.Size = new System.Drawing.Size(566, 23);
             this.tabOpcionesMenu.TabIndex = 1;
+            this.tabOpcionesMenu.Click += new System.EventHandler(this.tabOpcionesMenu_Click);
             // 
             // frmPrincipal
             // 

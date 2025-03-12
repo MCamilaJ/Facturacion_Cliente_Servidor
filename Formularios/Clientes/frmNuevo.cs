@@ -15,7 +15,7 @@ namespace Facturacion_Cliente_Servidor.Formularios.Clientes
     public partial class frmNuevo : MaterialForm
     {
         private Datos.ClientesDAO clientesDAO = new Datos.ClientesDAO();
-        private Formularios.Clientes.frmClientes frmClientes;
+        private Formularios.Clientes.frmClientes frmClientes; 
 
 
         public frmNuevo(Formularios.Clientes.frmClientes frmClientes)

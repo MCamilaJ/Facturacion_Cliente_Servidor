@@ -7,10 +7,12 @@ using System.Windows.Forms;
 
 namespace Facturacion_Cliente_Servidor.Utilidades
 {
-    internal class AbrirForm
+    public static class AbrirForm
     {
         public static void AbrirFormulario(Form formHijo, Panel panelContenedor)
         {
+
+
             // Si hay controles en el panel
             if (panelContenedor.Controls.Count > 0)
             {
@@ -25,6 +27,7 @@ namespace Facturacion_Cliente_Servidor.Utilidades
                 }
             }
 
+
             Console.WriteLine("Abriendo nuevo formulario: " + formHijo.Name);
             formHijo.TopLevel = false;
             formHijo.FormBorderStyle = FormBorderStyle.None;
@@ -33,6 +36,8 @@ namespace Facturacion_Cliente_Servidor.Utilidades
             panelContenedor.Tag = formHijo;
             formHijo.BringToFront(); // Trae el nuevo formulario al frente
             formHijo.Show();
+
         }
     }
+
 }
